@@ -3,861 +3,794 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UKT Air Conditioners — No Outdoor Unit Required</title>
-    <meta name="description" content="UKT manufactures advanced HVAC systems that require no outdoor condenser unit. Ideal for historic buildings, apartments, and renovations. Made in the USA.">
-    <meta name="keywords" content="air conditioner without outdoor unit, no condenser HVAC, packaged air conditioner, ductable HVAC, UKT, monoblock AC">
+    <title>UKT — Air Conditioning Without Outdoor Units</title>
+    <meta name="description" content="UKT manufactures advanced HVAC systems requiring no outdoor condenser. Ideal for historic buildings, apartments, and renovations. Made in Michigan, USA.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="nav" id="nav">
-        <div class="nav-inner">
-            <a href="#" class="nav-logo">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                    <rect width="40" height="40" rx="8" fill="#0EA5E9"/>
-                    <path d="M10 12h6v16h-6zM16 12h8l-8 16h8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    <path d="M26 12h4v16h-4" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                </svg>
-                <span>UKT</span>
-            </a>
-            <div class="nav-links">
-                <a href="#products">Products</a>
-                <a href="#how-it-works">How It Works</a>
-                <a href="#specs">Specifications</a>
-                <a href="#applications">Applications</a>
-                <a href="#about">About</a>
-                <a href="#contact" class="nav-cta">Get a Quote</a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="hero" id="hero">
-        <div class="hero-bg-pattern"></div>
-        <div class="hero-content">
-            <div class="hero-badge">Made in Michigan, USA &middot; Since 1998</div>
-            <h1>Air Conditioning<br><span class="gradient-text">Without Limits</span></h1>
-            <p class="hero-sub">The only HVAC system that fits inside your ceiling, wall, or floor — with <strong>no outdoor unit required</strong>. Perfect for historic buildings, apartments, and renovations where traditional systems can't go.</p>
-            <div class="hero-actions">
-                <a href="#products" class="btn btn-primary">Explore Products</a>
-                <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-value">0</span>
-                    <span class="stat-label">Outdoor Units</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-value">10"</span>
-                    <span class="stat-label">Profile Height</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-value">18K</span>
-                    <span class="stat-label">Max BTU</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-value">115V</span>
-                    <span class="stat-label">Standard Power</span>
-                </div>
-            </div>
+<!-- Navigation -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            <span class="logo-mark">UKT</span>
+        </a>
+        <div class="nav-links" id="nav-links">
+            <a href="#products">Products</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#specs">Specifications</a>
+            <a href="#applications">Applications</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="nav-cta">Get a Quote</a>
         </div>
-        <div class="hero-visual">
-            <!-- Animated unit cross-section SVG -->
-            <svg class="hero-unit-svg" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Unit body -->
-                <rect x="50" y="80" width="500" height="140" rx="8" fill="#1E293B" stroke="#334155" stroke-width="2"/>
-                <!-- Interior sections -->
-                <rect x="60" y="90" width="140" height="120" rx="4" fill="#0F172A" stroke="#1E40AF" stroke-width="1" opacity="0.8"/>
-                <text x="130" y="155" text-anchor="middle" fill="#60A5FA" font-size="11" font-family="Inter">EVAPORATOR</text>
-                <rect x="220" y="90" width="100" height="120" rx="4" fill="#0F172A" stroke="#059669" stroke-width="1" opacity="0.8"/>
-                <text x="270" y="155" text-anchor="middle" fill="#34D399" font-size="11" font-family="Inter">COMPRESSOR</text>
-                <rect x="340" y="90" width="140" height="120" rx="4" fill="#0F172A" stroke="#DC2626" stroke-width="1" opacity="0.8"/>
-                <text x="410" y="155" text-anchor="middle" fill="#F87171" font-size="11" font-family="Inter">CONDENSER</text>
-                <!-- Fan icons -->
-                <g class="fan-spin" transform="translate(130,130)">
-                    <circle r="18" fill="none" stroke="#60A5FA" stroke-width="1" opacity="0.3"/>
-                    <path d="M0,-12 Q8,-4 0,0 Q-8,4 0,12 Q-8,4 0,0 Q8,-4 0,-12" fill="#60A5FA" opacity="0.6"/>
-                    <path d="M-12,0 Q-4,-8 0,0 Q4,8 12,0 Q4,8 0,0 Q-4,-8 -12,0" fill="#60A5FA" opacity="0.6"/>
-                </g>
-                <g class="fan-spin-slow" transform="translate(410,130)">
-                    <circle r="18" fill="none" stroke="#F87171" stroke-width="1" opacity="0.3"/>
-                    <path d="M0,-12 Q8,-4 0,0 Q-8,4 0,12 Q-8,4 0,0 Q8,-4 0,-12" fill="#F87171" opacity="0.6"/>
-                    <path d="M-12,0 Q-4,-8 0,0 Q4,8 12,0 Q4,8 0,0 Q-4,-8 -12,0" fill="#F87171" opacity="0.6"/>
-                </g>
-                <!-- Cool air arrows (out) -->
-                <g class="flow-cool">
-                    <path d="M100,80 L100,40" stroke="#60A5FA" stroke-width="2" stroke-dasharray="6,4" class="flow-arrow-up"/>
-                    <polygon points="94,42 100,28 106,42" fill="#60A5FA" class="flow-arrow-up"/>
-                    <path d="M160,80 L160,40" stroke="#60A5FA" stroke-width="2" stroke-dasharray="6,4" class="flow-arrow-up"/>
-                    <polygon points="154,42 160,28 166,42" fill="#60A5FA" class="flow-arrow-up"/>
-                </g>
-                <!-- Labels -->
-                <text x="130" y="20" text-anchor="middle" fill="#60A5FA" font-size="10" font-family="Inter" font-weight="600">COOL AIR OUT</text>
-                <!-- Return air arrows (in) -->
-                <g class="flow-return">
-                    <path d="M70,40 L70,80" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6,4" class="flow-arrow-down"/>
-                    <polygon points="64,78 70,92 76,78" fill="#94A3B8" class="flow-arrow-down-head"/>
-                </g>
-                <text x="70" y="20" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="Inter" font-weight="600">RETURN AIR</text>
-                <!-- Hot exhaust arrows -->
-                <g class="flow-hot">
-                    <path d="M500,150 L560,150" stroke="#F87171" stroke-width="2" stroke-dasharray="6,4" class="flow-arrow-right"/>
-                    <polygon points="558,144 572,150 558,156" fill="#F87171" class="flow-arrow-right-head"/>
-                </g>
-                <text x="565" y="140" fill="#F87171" font-size="10" font-family="Inter" font-weight="600">HOT</text>
-                <text x="565" y="152" fill="#F87171" font-size="10" font-family="Inter" font-weight="600">EXHAUST</text>
-                <!-- Fresh air in -->
-                <g class="flow-fresh">
-                    <path d="M560,120 L500,120" stroke="#FCD34D" stroke-width="2" stroke-dasharray="6,4" class="flow-arrow-left"/>
-                    <polygon points="502,114 488,120 502,126" fill="#FCD34D" class="flow-arrow-left-head"/>
-                </g>
-                <text x="565" y="110" fill="#FCD34D" font-size="10" font-family="Inter" font-weight="600">FRESH</text>
-                <text x="565" y="122" fill="#FCD34D" font-size="10" font-family="Inter" font-weight="600">AIR IN</text>
-                <!-- Dimension labels -->
-                <line x1="50" y1="250" x2="550" y2="250" stroke="#475569" stroke-width="1"/>
-                <line x1="50" y1="245" x2="50" y2="255" stroke="#475569" stroke-width="1"/>
-                <line x1="550" y1="245" x2="550" y2="255" stroke="#475569" stroke-width="1"/>
-                <text x="300" y="270" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="JetBrains Mono" font-weight="500">47" (1200mm)</text>
-                <!-- Height dimension -->
-                <line x1="30" y1="80" x2="30" y2="220" stroke="#475569" stroke-width="1"/>
-                <line x1="25" y1="80" x2="35" y2="80" stroke="#475569" stroke-width="1"/>
-                <line x1="25" y1="220" x2="35" y2="220" stroke="#475569" stroke-width="1"/>
-                <text x="25" y="155" text-anchor="middle" fill="#94A3B8" font-size="12" font-family="JetBrains Mono" font-weight="500" transform="rotate(-90,25,155)">10" (254mm)</text>
-            </svg>
-        </div>
-    </header>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+    </div>
+</nav>
 
-    <!-- Problem/Solution Section -->
-    <section class="problem-section">
-        <div class="container">
-            <div class="problem-grid">
-                <div class="problem-card problem-bad">
-                    <div class="problem-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#EF4444" stroke-width="2"/><path d="M16 16l16 16M32 16L16 32" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/></svg>
-                    </div>
-                    <h3>The Problem With Traditional AC</h3>
-                    <ul>
-                        <li>Outdoor condensers banned in historic districts</li>
-                        <li>Co-op and condo boards restrict exterior equipment</li>
-                        <li>No roof access, no yard, no balcony</li>
-                        <li>Window units block light and views</li>
-                        <li>Portable ACs are loud and inefficient</li>
-                    </ul>
+<!-- Hero -->
+<header class="hero">
+    <div class="hero-image-wrap">
+        <img src="images/hero-luxury-apartment.jpg" alt="Luxury apartment with invisible UKT air conditioning — no outdoor units" class="hero-bg-img" loading="eager">
+        <div class="hero-image-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="hero-layout">
+            <div class="hero-content">
+                <p class="hero-eyebrow">Designed &amp; built in Michigan</p>
+                <h1>The invisible<br>air conditioner.</h1>
+                <p class="hero-desc">UKT builds complete HVAC systems that fit inside your ceiling — with <strong>no outdoor unit</strong>. No condenser on the roof, no box on the wall, nothing outside. Just quiet, ducted comfort.</p>
+                <div class="hero-actions">
+                    <a href="#how-it-works" class="btn btn-primary">See How It Works</a>
+                    <a href="#specs" class="btn btn-ghost">View Specifications</a>
                 </div>
-                <div class="problem-card problem-good">
-                    <div class="problem-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#10B981" stroke-width="2"/><path d="M14 24l8 8 12-16" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    </div>
-                    <h3>The UKT Solution</h3>
-                    <ul>
-                        <li>Entire system fits inside ceiling, wall, or floor</li>
-                        <li>No outdoor condenser — nothing visible outside</li>
-                        <li>Connects to ductwork for whole-room distribution</li>
-                        <li>Only 10" tall — fits in standard ceiling cavities</li>
-                        <li>115V standard outlet — no special wiring</li>
-                    </ul>
+            </div>
+            <div class="hero-metrics">
+                <div class="metric">
+                    <span class="metric-val">0</span>
+                    <span class="metric-label">Outdoor units</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-val">10"</span>
+                    <span class="metric-label">Profile height</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-val">18K</span>
+                    <span class="metric-label">BTU max</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-val">115V</span>
+                    <span class="metric-label">Standard plug</span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</header>
 
-    <!-- Products Section -->
-    <section class="products-section" id="products">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Product Line</span>
-                <h2>Choose Your Configuration</h2>
-                <p>Every UKT system eliminates the outdoor unit. Choose the form factor that fits your space.</p>
+<!-- Social Proof Banner -->
+<section class="facade-section">
+    <div class="container">
+        <div class="facade-layout">
+            <div class="facade-image-wrap">
+                <img src="images/before-after-facade.jpg" alt="Building facade comparison — with and without ugly outdoor AC condensers" loading="lazy">
             </div>
-            <div class="products-grid">
-                <!-- Attic Compact -->
-                <div class="product-card featured" id="attic-compact">
-                    <div class="product-badge">Most Popular</div>
-                    <div class="product-visual">
-                        <svg viewBox="0 0 400 200" class="product-svg">
-                            <rect x="50" y="60" width="300" height="80" rx="6" fill="#1E293B" stroke="#0EA5E9" stroke-width="1.5"/>
-                            <rect x="60" y="70" width="80" height="60" rx="3" fill="#0F172A"/>
-                            <rect x="160" y="70" width="60" height="60" rx="3" fill="#0F172A"/>
-                            <rect x="240" y="70" width="100" height="60" rx="3" fill="#0F172A"/>
-                            <g class="fan-spin" transform="translate(100,100)"><circle r="14" fill="none" stroke="#60A5FA" stroke-width="0.5"/><path d="M0,-10 Q6,-3 0,0 Q-6,3 0,10 Q-6,3 0,0 Q6,-3 0,-10" fill="#60A5FA" opacity="0.5"/><path d="M-10,0 Q-3,-6 0,0 Q3,6 10,0 Q3,6 0,0 Q-3,-6 -10,0" fill="#60A5FA" opacity="0.5"/></g>
-                            <!-- Airflow arrows -->
-                            <path d="M90,60 L90,30" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="4,3" class="flow-arrow-up"/>
-                            <polygon points="86,32 90,22 94,32" fill="#60A5FA" class="flow-arrow-up"/>
-                            <path d="M350,100 L380,100" stroke="#F87171" stroke-width="1.5" stroke-dasharray="4,3" class="flow-arrow-right"/>
-                            <polygon points="378,96 388,100 378,104" fill="#F87171"/>
-                            <text x="200" y="105" text-anchor="middle" fill="#94A3B8" font-size="9" font-family="Inter">INTEGRATED SYSTEM</text>
-                            <text x="200" y="170" text-anchor="middle" fill="#475569" font-size="10" font-family="JetBrains Mono">47" × 23" × 10"</text>
-                        </svg>
-                    </div>
-                    <h3>Attic Compact</h3>
-                    <p class="product-tagline">Invisible ceiling-mount ductable HVAC</p>
-                    <div class="product-specs-mini">
-                        <div class="spec-pill"><strong>9,500–17,900</strong> BTU</div>
-                        <div class="spec-pill"><strong>10"</strong> Height</div>
-                        <div class="spec-pill"><strong>115/230V</strong></div>
-                        <div class="spec-pill"><strong>Ductable</strong></div>
-                    </div>
-                    <p class="product-desc">Designed to disappear inside ceiling cavities, attics, and false ceilings. At just 10 inches tall, it's the thinnest ductable packaged AC on the market. Connects to standard flexible ductwork with up to 4 supply outputs.</p>
-                    <a href="#specs" class="btn btn-secondary">View Full Specs →</a>
-                </div>
-
-                <!-- Vertical Ductable -->
-                <div class="product-card" id="vertical">
-                    <div class="product-visual">
-                        <svg viewBox="0 0 400 200" class="product-svg">
-                            <rect x="160" y="10" width="80" height="180" rx="6" fill="#1E293B" stroke="#10B981" stroke-width="1.5"/>
-                            <rect x="170" y="20" width="60" height="50" rx="3" fill="#0F172A"/>
-                            <rect x="170" y="80" width="60" height="40" rx="3" fill="#0F172A"/>
-                            <rect x="170" y="130" width="60" height="50" rx="3" fill="#0F172A"/>
-                            <g class="fan-spin" transform="translate(200,45)"><circle r="12" fill="none" stroke="#60A5FA" stroke-width="0.5"/><path d="M0,-8 Q5,-3 0,0 Q-5,3 0,8 Q-5,3 0,0 Q5,-3 0,-8" fill="#60A5FA" opacity="0.5"/><path d="M-8,0 Q-3,-5 0,0 Q3,5 8,0 Q3,5 0,0 Q-3,-5 -8,0" fill="#60A5FA" opacity="0.5"/></g>
-                            <path d="M200,10 L200,-15" stroke="#60A5FA" stroke-width="1.5" stroke-dasharray="4,3" class="flow-arrow-up"/>
-                            <polygon points="196,-13 200,-23 204,-13" fill="#60A5FA"/>
-                            <text x="200" y="105" text-anchor="middle" fill="#94A3B8" font-size="8" font-family="Inter">COMP</text>
-                            <text x="200" y="195" text-anchor="middle" fill="#475569" font-size="10" font-family="JetBrains Mono">12" × 12" × 65"</text>
-                        </svg>
-                    </div>
-                    <h3>Vertical Ductable</h3>
-                    <p class="product-tagline">Fits in a 12" wall strip with hydronic option</p>
-                    <div class="product-specs-mini">
-                        <div class="spec-pill"><strong>12"×12"</strong> Footprint</div>
-                        <div class="spec-pill"><strong>Hydronic</strong> Heat</div>
-                        <div class="spec-pill"><strong>Ductable</strong></div>
-                    </div>
-                    <p class="product-desc">Slides into a narrow wall strip just 12 inches wide. Integrates with hydronic heating systems via built-in water radiator and pump. Ideal for renovations where wall space is limited.</p>
-                    <a href="#vertical-specs" class="btn btn-secondary">Learn More →</a>
-                </div>
-
-                <!-- Vertical HVAC -->
-                <div class="product-card" id="vertical-hvac">
-                    <div class="product-visual">
-                        <svg viewBox="0 0 400 200" class="product-svg">
-                            <rect x="150" y="15" width="100" height="170" rx="6" fill="#1E293B" stroke="#A855F7" stroke-width="1.5"/>
-                            <rect x="160" y="25" width="80" height="65" rx="3" fill="#0F172A"/>
-                            <rect x="160" y="100" width="80" height="75" rx="3" fill="#0F172A"/>
-                            <g class="fan-spin-slow" transform="translate(200,60)"><circle r="14" fill="none" stroke="#A855F7" stroke-width="0.5"/><path d="M0,-10 Q6,-3 0,0 Q-6,3 0,10 Q-6,3 0,0 Q6,-3 0,-10" fill="#A855F7" opacity="0.5"/><path d="M-10,0 Q-3,-6 0,0 Q3,6 10,0 Q3,6 0,0 Q-3,-6 -10,0" fill="#A855F7" opacity="0.5"/></g>
-                            <text x="200" y="195" text-anchor="middle" fill="#475569" font-size="10" font-family="JetBrains Mono">Closet / Cabinet</text>
-                        </svg>
-                    </div>
-                    <h3>Vertical HVAC</h3>
-                    <p class="product-tagline">Full-height unit for closets and cabinets</p>
-                    <div class="product-specs-mini">
-                        <div class="spec-pill"><strong>Cabinet</strong> Mount</div>
-                        <div class="spec-pill"><strong>Cooling+Heat</strong></div>
-                        <div class="spec-pill"><strong>High CFM</strong></div>
-                    </div>
-                    <p class="product-desc">A full-height unit that hides inside a closet, cabinet, or utility space. Higher airflow capacity for larger areas while maintaining zero outdoor footprint.</p>
-                    <a href="#contact" class="btn btn-secondary">Inquire →</a>
-                </div>
-
-                <!-- Baby HVAC -->
-                <div class="product-card" id="baby-hvac">
-                    <div class="product-visual">
-                        <svg viewBox="0 0 400 200" class="product-svg">
-                            <rect x="125" y="50" width="150" height="100" rx="6" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
-                            <rect x="135" y="60" width="55" height="80" rx="3" fill="#0F172A"/>
-                            <rect x="200" y="60" width="65" height="80" rx="3" fill="#0F172A"/>
-                            <g class="fan-spin" transform="translate(163,100)"><circle r="12" fill="none" stroke="#F59E0B" stroke-width="0.5"/><path d="M0,-8 Q5,-3 0,0 Q-5,3 0,8 Q-5,3 0,0 Q5,-3 0,-8" fill="#F59E0B" opacity="0.5"/><path d="M-8,0 Q-3,-5 0,0 Q3,5 8,0 Q3,5 0,0 Q-3,-5 -8,0" fill="#F59E0B" opacity="0.5"/></g>
-                            <text x="200" y="170" text-anchor="middle" fill="#475569" font-size="10" font-family="JetBrains Mono">Ultra-Compact</text>
-                        </svg>
-                    </div>
-                    <h3>Baby HVAC</h3>
-                    <p class="product-tagline">Ultra-compact for tight spaces</p>
-                    <div class="product-specs-mini">
-                        <div class="spec-pill"><strong>Smallest</strong> Unit</div>
-                        <div class="spec-pill"><strong>Direct</strong> Output</div>
-                        <div class="spec-pill"><strong>115V</strong></div>
-                    </div>
-                    <p class="product-desc">The smallest unit in the lineup. Designed for kiosks, toll booths, server rooms, and micro-spaces where every inch counts. High-velocity jet vent system provides targeted cooling.</p>
-                    <a href="#contact" class="btn btn-secondary">Inquire →</a>
-                </div>
+            <div class="facade-text">
+                <h2>Keep your building beautiful.</h2>
+                <p>On the left: outdoor condensers cluttering a facade. On the right: the same building with UKT — clean, preserved, exactly as the architect intended. No exterior equipment. No compromise.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- How It Works Section with Animated SVGs -->
-    <section class="how-section" id="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Technology</span>
-                <h2>How It Works</h2>
-                <p>A complete air conditioning system — compressor, condenser, and evaporator — engineered into a single compact unit. No outdoor equipment. No refrigerant lines to run.</p>
+<!-- Why -->
+<section class="why-section">
+    <div class="container">
+        <div class="why-header">
+            <h2>Traditional AC doesn't work everywhere.</h2>
+            <p>Outdoor condensers are banned in landmark districts. Co-op boards say no. There's no roof access, no yard, no balcony. Window units block light. Portable units are loud. <strong>UKT solves all of this.</strong></p>
+        </div>
+        <div class="why-showcase">
+            <img src="images/historic-brownstone.jpg" alt="Historic brownstone building with pristine facade — no outdoor AC units" class="why-hero-img" loading="lazy">
+        </div>
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 26V10l12-6 12 6v16" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 26v-8h8v8" stroke="currentColor" stroke-width="1.5"/><path d="M4 26h24" stroke="currentColor" stroke-width="1.5"/></svg>
+                </div>
+                <h3>Historic buildings</h3>
+                <p>No exterior modifications. Meets landmark preservation codes.</p>
             </div>
-
-            <!-- Main airflow animation -->
-            <div class="airflow-demo">
-                <div class="airflow-tabs">
-                    <button class="airflow-tab active" data-mode="recirculate">100% Return Air</button>
-                    <button class="airflow-tab" data-mode="mixed">50/50 Mixed Air</button>
-                    <button class="airflow-tab" data-mode="fresh">100% Fresh Air</button>
+            <div class="why-card">
+                <div class="why-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="4" width="20" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/><line x1="6" y1="12" x2="26" y2="12" stroke="currentColor" stroke-width="1.5"/><line x1="6" y1="20" x2="26" y2="20" stroke="currentColor" stroke-width="1.5"/><circle cx="16" cy="8" r="1.5" fill="currentColor"/><circle cx="16" cy="16" r="1.5" fill="currentColor"/><circle cx="16" cy="24" r="1.5" fill="currentColor"/></svg>
                 </div>
-                <div class="airflow-svg-container">
-                    <svg id="airflow-svg" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Room outline -->
-                        <rect x="100" y="50" width="700" height="400" rx="4" fill="#0F172A" stroke="#1E293B" stroke-width="2"/>
-                        <!-- Ceiling -->
-                        <rect x="100" y="50" width="700" height="60" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <text x="450" y="75" text-anchor="middle" fill="#475569" font-size="12" font-family="Inter">CEILING CAVITY / ATTIC</text>
-
-                        <!-- UKT Unit in ceiling -->
-                        <rect x="250" y="55" width="300" height="50" rx="4" fill="#0F172A" stroke="#0EA5E9" stroke-width="2"/>
-                        <text x="400" y="85" text-anchor="middle" fill="#0EA5E9" font-size="13" font-family="Inter" font-weight="700">UKT ATTIC COMPACT</text>
-
-                        <!-- Evaporator section -->
-                        <rect x="260" y="60" width="100" height="40" rx="2" fill="none" stroke="#60A5FA" stroke-width="1" opacity="0.5"/>
-                        <text x="310" y="70" text-anchor="middle" fill="#60A5FA" font-size="8" font-family="Inter">EVAP</text>
-
-                        <!-- Condenser section -->
-                        <rect x="440" y="60" width="100" height="40" rx="2" fill="none" stroke="#F87171" stroke-width="1" opacity="0.5"/>
-                        <text x="490" y="70" text-anchor="middle" fill="#F87171" font-size="8" font-family="Inter">COND</text>
-
-                        <!-- Supply ducts -->
-                        <rect x="270" y="105" width="30" height="40" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <rect x="350" y="105" width="30" height="40" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <rect x="430" y="105" width="30" height="40" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="4,2"/>
-
-                        <!-- Supply grilles -->
-                        <rect x="265" y="140" width="40" height="8" rx="2" fill="#0EA5E9" opacity="0.3"/>
-                        <rect x="345" y="140" width="40" height="8" rx="2" fill="#0EA5E9" opacity="0.3"/>
-
-                        <!-- Cool air flowing down from vents -->
-                        <g id="cool-air-1">
-                            <circle cx="285" cy="160" r="3" fill="#60A5FA" opacity="0.8" class="particle-down"/>
-                            <circle cx="285" cy="185" r="2.5" fill="#60A5FA" opacity="0.6" class="particle-down-2"/>
-                            <circle cx="285" cy="210" r="2" fill="#60A5FA" opacity="0.4" class="particle-down-3"/>
-                            <circle cx="285" cy="235" r="1.5" fill="#60A5FA" opacity="0.2" class="particle-down-4"/>
-                        </g>
-                        <g id="cool-air-2">
-                            <circle cx="365" cy="165" r="3" fill="#60A5FA" opacity="0.8" class="particle-down"/>
-                            <circle cx="365" cy="190" r="2.5" fill="#60A5FA" opacity="0.6" class="particle-down-2"/>
-                            <circle cx="365" cy="215" r="2" fill="#60A5FA" opacity="0.4" class="particle-down-3"/>
-                            <circle cx="365" cy="240" r="1.5" fill="#60A5FA" opacity="0.2" class="particle-down-4"/>
-                        </g>
-
-                        <!-- Cool air labels -->
-                        <text x="285" y="155" text-anchor="middle" fill="#60A5FA" font-size="9" font-family="Inter" font-weight="600">COOL</text>
-                        <text x="365" y="155" text-anchor="middle" fill="#60A5FA" font-size="9" font-family="Inter" font-weight="600">COOL</text>
-
-                        <!-- Return air path (warm air going up) -->
-                        <g id="return-air">
-                            <rect x="180" y="105" width="30" height="40" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                            <rect x="175" y="140" width="40" height="8" rx="2" fill="#94A3B8" opacity="0.3"/>
-                            <circle cx="195" cy="260" r="3" fill="#FCD34D" opacity="0.7" class="particle-up"/>
-                            <circle cx="195" cy="235" r="2.5" fill="#FCD34D" opacity="0.5" class="particle-up-2"/>
-                            <circle cx="195" cy="210" r="2" fill="#FCD34D" opacity="0.4" class="particle-up-3"/>
-                            <circle cx="195" cy="185" r="1.5" fill="#FCD34D" opacity="0.2" class="particle-up-4"/>
-                            <text x="195" y="275" text-anchor="middle" fill="#FCD34D" font-size="9" font-family="Inter" font-weight="600">WARM RETURN</text>
-                        </g>
-
-                        <!-- Exterior wall -->
-                        <rect x="790" y="50" width="20" height="400" fill="#334155"/>
-                        <text x="800" y="260" text-anchor="middle" fill="#64748B" font-size="10" font-family="Inter" font-weight="600" transform="rotate(90,800,260)">EXTERIOR WALL</text>
-
-                        <!-- Exhaust duct to outside -->
-                        <rect x="540" y="65" width="270" height="20" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <g id="exhaust-air">
-                            <circle cx="600" cy="75" r="3" fill="#F87171" opacity="0.8" class="particle-right"/>
-                            <circle cx="650" cy="75" r="2.5" fill="#F87171" opacity="0.6" class="particle-right-2"/>
-                            <circle cx="700" cy="75" r="2" fill="#F87171" opacity="0.4" class="particle-right-3"/>
-                            <circle cx="750" cy="75" r="1.5" fill="#F87171" opacity="0.2" class="particle-right-4"/>
-                        </g>
-                        <text x="660" y="60" text-anchor="middle" fill="#F87171" font-size="9" font-family="Inter" font-weight="600">HOT EXHAUST → OUT</text>
-
-                        <!-- Fresh air intake -->
-                        <rect x="540" y="90" width="270" height="15" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <g id="fresh-air">
-                            <circle cx="750" cy="97" r="3" fill="#34D399" opacity="0.8" class="particle-left"/>
-                            <circle cx="700" cy="97" r="2.5" fill="#34D399" opacity="0.6" class="particle-left-2"/>
-                            <circle cx="650" cy="97" r="2" fill="#34D399" opacity="0.4" class="particle-left-3"/>
-                        </g>
-                        <text x="660" y="90" text-anchor="middle" fill="#34D399" font-size="9" font-family="Inter" font-weight="600">← FRESH AIR IN</text>
-
-                        <!-- Exterior louver -->
-                        <rect x="805" y="60" width="12" height="50" rx="2" fill="#475569"/>
-                        <line x1="808" y1="65" x2="814" y2="65" stroke="#334155" stroke-width="1"/>
-                        <line x1="808" y1="72" x2="814" y2="72" stroke="#334155" stroke-width="1"/>
-                        <line x1="808" y1="79" x2="814" y2="79" stroke="#334155" stroke-width="1"/>
-                        <line x1="808" y1="86" x2="814" y2="86" stroke="#334155" stroke-width="1"/>
-                        <line x1="808" y1="93" x2="814" y2="93" stroke="#334155" stroke-width="1"/>
-                        <line x1="808" y1="100" x2="814" y2="100" stroke="#334155" stroke-width="1"/>
-                        <text x="825" y="85" fill="#64748B" font-size="9" font-family="Inter">LOUVER</text>
-
-                        <!-- Room furniture/person silhouette -->
-                        <rect x="250" y="350" width="120" height="60" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1"/>
-                        <text x="310" y="385" text-anchor="middle" fill="#475569" font-size="10" font-family="Inter">DESK</text>
-                        <circle cx="550" cy="340" r="15" fill="#334155"/>
-                        <rect x="540" y="355" width="20" height="40" rx="4" fill="#334155"/>
-                        <text x="550" y="410" text-anchor="middle" fill="#475569" font-size="10" font-family="Inter">OCCUPANT</text>
-
-                        <!-- Temperature indicators -->
-                        <g class="temp-badge" transform="translate(140,320)">
-                            <rect x="-30" y="-12" width="60" height="24" rx="12" fill="#60A5FA" opacity="0.15"/>
-                            <text x="0" y="5" text-anchor="middle" fill="#60A5FA" font-size="12" font-family="JetBrains Mono" font-weight="500">72°F</text>
-                        </g>
-                        <text x="140" y="350" text-anchor="middle" fill="#64748B" font-size="9" font-family="Inter">Conditioned Space</text>
-                    </svg>
-                </div>
-                <div class="airflow-legend">
-                    <div class="legend-item"><span class="legend-dot" style="background:#60A5FA"></span> Cooled Supply Air</div>
-                    <div class="legend-item"><span class="legend-dot" style="background:#FCD34D"></span> Warm Return Air</div>
-                    <div class="legend-item"><span class="legend-dot" style="background:#F87171"></span> Hot Exhaust (to outside)</div>
-                    <div class="legend-item"><span class="legend-dot" style="background:#34D399"></span> Fresh Air Intake</div>
-                </div>
+                <h3>Apartments &amp; condos</h3>
+                <p>Board-approved. Nothing visible from outside the building.</p>
             </div>
-
-            <!-- Key feature cards -->
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#0EA5E9" opacity="0.1"/><path d="M12 28V16l8-6 8 6v12H12z" stroke="#0EA5E9" stroke-width="1.5" fill="none"/><path d="M18 28v-6h4v6" stroke="#0EA5E9" stroke-width="1.5"/></svg>
-                    </div>
-                    <h4>Truly Invisible</h4>
-                    <p>Mounts entirely inside the ceiling, wall, or floor. Nothing visible from outside the building. Only discreet supply grilles are seen indoors.</p>
+            <div class="why-card">
+                <div class="why-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 28V14l8-10 8 10v14" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 28h24" stroke="currentColor" stroke-width="1.5"/><rect x="13" y="18" width="6" height="10" stroke="currentColor" stroke-width="1.5"/></svg>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#10B981" opacity="0.1"/><circle cx="20" cy="20" r="10" stroke="#10B981" stroke-width="1.5" fill="none"/><path d="M20 14v6l4 4" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/></svg>
-                    </div>
-                    <h4>Quick Retrofit</h4>
-                    <p>No refrigerant lines to run between units. No outdoor pad, bracket, or structural support needed. Dramatically faster installation than split systems.</p>
+                <h3>Renovations</h3>
+                <p>Retrofit into existing ceilings as shallow as 10 inches. No structural work.</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M10 24v4M22 24v4M8 28h4M20 28h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#F59E0B" opacity="0.1"/><path d="M14 20h12M20 14v12" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round"/><circle cx="20" cy="20" r="10" stroke="#F59E0B" stroke-width="1.5" fill="none"/></svg>
-                    </div>
-                    <h4>Flexible Ducting</h4>
-                    <p>Up to 4 supply air outputs with 100mm flexible duct connections. Return air from either side. Configure for any room layout.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#A855F7" opacity="0.1"/><path d="M15 25c0-5.5 4.5-10 10-10M18 25c0-3.9 3.1-7 7-7M21 25c0-2.2 1.8-4 4-4" stroke="#A855F7" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
-                    </div>
-                    <h4>Fresh Air Options</h4>
-                    <p>Three ventilation modes: 100% recirculated, 50/50 mixed, or 100% fresh outdoor air. Meets health and safety ventilation requirements.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#EF4444" opacity="0.1"/><path d="M20 10v4M28 12l-3 3M30 20h-4M28 28l-3-3M20 30v-4M12 28l3-3M10 20h4M12 12l3 3" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round"/><circle cx="20" cy="20" r="4" fill="#EF4444" opacity="0.3"/></svg>
-                    </div>
-                    <h4>Heat Recovery</h4>
-                    <p>Proprietary condensate heat recovery system recycles moisture energy to boost cooling efficiency and reduce electricity consumption.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 40 40"><rect width="40" height="40" rx="8" fill="#06B6D4" opacity="0.1"/><rect x="12" y="14" width="16" height="12" rx="2" stroke="#06B6D4" stroke-width="1.5" fill="none"/><path d="M16 18h8M16 22h5" stroke="#06B6D4" stroke-width="1.5" stroke-linecap="round"/></svg>
-                    </div>
-                    <h4>Full Metal Build</h4>
-                    <p>Aluminum alloy and galvanized steel construction. Corrosion resistant, powder coated. Built for decades of reliable operation in any environment.</p>
-                </div>
+                <h3>Mobile &amp; temporary</h3>
+                <p>Trade shows, construction offices, RVs, marine. Quick install, quick removal.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Specifications Section -->
-    <section class="specs-section" id="specs">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Technical Data</span>
-                <h2>Attic Compact Specifications</h2>
-                <p>Complete engineering data for all Attic Compact models. Available in 115V and 230V configurations.</p>
+<!-- Products -->
+<section class="products-section" id="products">
+    <div class="container">
+        <div class="section-intro">
+            <p class="section-label">Products</p>
+            <h2>Four configurations.<br>Zero outdoor units.</h2>
+        </div>
+
+        <!-- Attic Compact - Featured -->
+        <div class="product-feature" id="attic-compact">
+            <div class="product-feature-content">
+                <span class="product-tag">Most popular</span>
+                <h3>Attic Compact</h3>
+                <p class="product-subtitle">Ceiling-mount ductable HVAC</p>
+                <p>Designed to disappear inside ceiling cavities, attics, and false ceilings. At just 10 inches tall, it's the thinnest ductable packaged AC on the market. Connects to standard flexible ductwork with up to 4 supply outputs.</p>
+                <div class="product-pills">
+                    <span>9,500 – 17,900 BTU</span>
+                    <span>10" profile</span>
+                    <span>115V / 230V</span>
+                    <span>Ductable</span>
+                    <span>Heat pump option</span>
+                </div>
+                <a href="#specs" class="btn btn-primary">Full specifications →</a>
+            </div>
+            <div class="product-feature-visual">
+                <img src="images/modern-kitchen-dining.jpg" alt="Open-plan kitchen with discreet ceiling AC vents — UKT Attic Compact" class="product-feature-img" loading="lazy">
+                <div class="product-feature-img-caption">Discreet ceiling vents blend invisibly into modern interiors</div>
+            </div>
+        </div>
+
+        <!-- Installation callout -->
+        <div class="install-callout">
+            <img src="images/installation-ceiling.jpg" alt="UKT Attic Compact being installed in a ceiling cavity during renovation" class="install-img" loading="lazy">
+            <div class="install-text">
+                <h3>10-inch profile. Fits anywhere.</h3>
+                <p>The Attic Compact slides into standard ceiling cavities during renovation. No structural modifications. No outdoor pad or bracket. Dramatically faster than split system installation.</p>
+            </div>
+        </div>
+        <!-- Other products grid -->
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-card-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="18" y="4" width="12" height="40" rx="3" stroke="currentColor" stroke-width="1.5"/><line x1="18" y1="16" x2="30" y2="16" stroke="currentColor" stroke-width="1"/><line x1="18" y1="32" x2="30" y2="32" stroke="currentColor" stroke-width="1"/></svg>
+                </div>
+                <h3>Vertical Ductable</h3>
+                <p class="product-card-sub">12″ × 12″ × 65″ — fits in a wall strip</p>
+                <p>Slides into a narrow 12-inch wall cavity with optional hydronic heating integration. Built-in water radiator and pump connect to existing hot water systems.</p>
+                <div class="product-pills"><span>12″ × 12″ footprint</span><span>Hydronic heat option</span><span>Ductable</span></div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="12" y="6" width="24" height="36" rx="3" stroke="currentColor" stroke-width="1.5"/><line x1="12" y1="18" x2="36" y2="18" stroke="currentColor" stroke-width="1"/><line x1="12" y1="30" x2="36" y2="30" stroke="currentColor" stroke-width="1"/><circle cx="24" cy="12" r="3" stroke="currentColor" stroke-width="1"/></svg>
+                </div>
+                <h3>Vertical HVAC</h3>
+                <p class="product-card-sub">Full-height cabinet mount</p>
+                <p>A full-height unit that hides inside a closet, cabinet, or utility space. Higher airflow capacity for larger areas while maintaining zero outdoor footprint.</p>
+                <div class="product-pills"><span>Cabinet mount</span><span>High CFM</span><span>Cooling + heat</span></div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="14" y="14" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="1"/><path d="M24 19v-5M24 34v-5M19 24h-5M34 24h-5" stroke="currentColor" stroke-width="1" stroke-linecap="round"/></svg>
+                </div>
+                <h3>Baby HVAC</h3>
+                <p class="product-card-sub">Ultra-compact for tight spaces</p>
+                <p>The smallest unit in the lineup. Designed for kiosks, toll booths, server rooms, and micro-spaces. High-velocity jet vent system provides targeted cooling.</p>
+                <div class="product-pills"><span>Ultra-compact</span><span>Direct output</span><span>115V</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-section" id="how-it-works">
+    <div class="container">
+        <div class="section-intro">
+            <p class="section-label">Technology</p>
+            <h2>Everything inside.<br>Nothing outside.</h2>
+            <p class="section-desc">A complete air conditioning system — compressor, condenser, and evaporator — in one compact unit that fits inside your ceiling. The only things that pass through the wall are two air ducts behind a discreet louver.</p>
+        </div>
+
+        <div class="airflow-demo">
+            <div class="airflow-controls">
+                <button class="airflow-btn active" data-mode="recirculate">
+                    <span class="airflow-btn-icon">↻</span>
+                    100% Recirculated
+                </button>
+                <button class="airflow-btn" data-mode="mixed">
+                    <span class="airflow-btn-icon">⇄</span>
+                    50 / 50 Mixed
+                </button>
+                <button class="airflow-btn" data-mode="fresh">
+                    <span class="airflow-btn-icon">↗</span>
+                    100% Fresh Air
+                </button>
             </div>
 
-            <div class="specs-table-wrapper">
-                <table class="specs-table">
-                    <thead>
-                        <tr>
-                            <th>Parameter</th>
-                            <th>Unit</th>
-                            <th class="highlight-col">Mod 9</th>
-                            <th class="highlight-col">Mod 12</th>
-                            <th>Mod 15</th>
-                            <th>Mod 18</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="section-row"><td colspan="6">Cooling Performance</td></tr>
-                        <tr><td>Cooling Capacity</td><td>BTU</td><td class="highlight-col">9,500</td><td class="highlight-col">12,500</td><td>15,100</td><td>17,900</td></tr>
-                        <tr><td>Cooling Capacity</td><td>Watts</td><td class="highlight-col">2,785</td><td class="highlight-col">3,665</td><td>4,430</td><td>5,250</td></tr>
-                        <tr><td>Sensible Heat</td><td>kW</td><td class="highlight-col">2.04</td><td class="highlight-col">2.39</td><td>2.70</td><td>3.20</td></tr>
-                        <tr><td>Latent Heat</td><td>kW</td><td class="highlight-col">0.74</td><td class="highlight-col">1.26</td><td>1.73</td><td>2.00</td></tr>
-                        <tr><td>Moisture Removal</td><td>Pints/hr</td><td class="highlight-col">2.1</td><td class="highlight-col">3.6</td><td>4.4</td><td>5.3</td></tr>
-                        <tr><td>EER / CEER</td><td>BTU/W</td><td class="highlight-col">10.9</td><td class="highlight-col">10.3</td><td>10.2</td><td>9.8</td></tr>
+            <div class="airflow-canvas">
+                <svg id="airflow-svg" viewBox="0 0 960 520" fill="none">
+                    <!-- ===== ROOM STRUCTURE ===== -->
+                    <!-- Floor -->
+                    <rect x="80" y="420" width="800" height="4" rx="2" fill="#e5e7eb"/>
+                    <!-- Left wall -->
+                    <rect x="80" y="40" width="4" height="384" fill="#e5e7eb"/>
+                    <!-- Ceiling line -->
+                    <rect x="80" y="40" width="800" height="4" rx="2" fill="#e5e7eb"/>
+                    <!-- Right / exterior wall -->
+                    <rect x="856" y="40" width="24" height="384" rx="4" fill="#d1d5db"/>
+                    <text x="868" y="240" text-anchor="middle" fill="#9ca3af" font-size="10" font-family="Inter" font-weight="600" transform="rotate(90 868 240)">Exterior Wall</text>
 
-                        <tr class="section-row"><td colspan="6">Electrical Data</td></tr>
-                        <tr><td>Voltage</td><td>V</td><td class="highlight-col" colspan="2">230V (115V available)</td><td>230V (115V)</td><td>230V only</td></tr>
-                        <tr><td>Frequency</td><td>Hz</td><td class="highlight-col" colspan="4">50/60 Hz</td></tr>
-                        <tr><td>Running Current (230V)</td><td>Amps</td><td class="highlight-col">3.8</td><td class="highlight-col">5.3</td><td>6.4</td><td>8.0</td></tr>
-                        <tr><td>Running Current (115V)</td><td>Amps</td><td class="highlight-col">7.6</td><td class="highlight-col">10.6</td><td>13.0</td><td>—</td></tr>
-                        <tr><td>Power Consumption</td><td>kW</td><td class="highlight-col">0.87</td><td class="highlight-col">1.21</td><td>1.48</td><td>1.84</td></tr>
-                        <tr><td>LRA (Locked Rotor)</td><td>Amps</td><td class="highlight-col">25 (55)</td><td class="highlight-col">27 (59)</td><td>32 (65)</td><td>38</td></tr>
-                        <tr><td>RLA (Rated Load)</td><td>Amps</td><td class="highlight-col">3.3 (6.6)</td><td class="highlight-col">4.8 (9.6)</td><td>5.3 (11.0)</td><td>7.1</td></tr>
-                        <tr><td>Power Factor</td><td>φ</td><td class="highlight-col" colspan="4">0.99</td></tr>
+                    <!-- ===== CEILING CAVITY ===== -->
+                    <rect x="84" y="44" width="772" height="72" rx="0" fill="#fafafa"/>
+                    <text x="750" y="68" text-anchor="end" fill="#c8c8c8" font-size="10" font-family="Inter" font-weight="500">Ceiling cavity</text>
 
-                        <tr class="section-row"><td colspan="6">Airflow</td></tr>
-                        <tr><td>Indoor — High</td><td>CFM</td><td class="highlight-col">310</td><td class="highlight-col">310</td><td>380</td><td>412</td></tr>
-                        <tr><td>Indoor — Medium</td><td>CFM</td><td class="highlight-col">210</td><td class="highlight-col">210</td><td>312</td><td>312</td></tr>
-                        <tr><td>Indoor — Low</td><td>CFM</td><td class="highlight-col">120</td><td class="highlight-col">155</td><td>210</td><td>235</td></tr>
+                    <!-- ===== UKT UNIT ===== -->
+                    <rect x="200" y="50" width="400" height="58" rx="8" fill="#fff" stroke="#0d9488" stroke-width="1.5" filter="url(#shadow)"/>
+                    <text x="400" y="76" text-anchor="middle" fill="#0d9488" font-size="12" font-family="Inter" font-weight="700" letter-spacing="0.1em">UKT ATTIC COMPACT</text>
+                    <text x="400" y="92" text-anchor="middle" fill="#99c2bc" font-size="9" font-family="Inter">Evaporator · Compressor · Condenser — all inside</text>
 
-                        <tr class="section-row"><td colspan="6">Dimensions &amp; Weight</td></tr>
-                        <tr><td>Unit Size (with flanges)</td><td>Inches</td><td class="highlight-col" colspan="4">53" × 30" × 10"</td></tr>
-                        <tr><td>Unit Size (with flanges)</td><td>mm</td><td class="highlight-col" colspan="4">1,350 × 765 × 254</td></tr>
-                        <tr><td>Unit Body (without flanges)</td><td>Inches</td><td class="highlight-col" colspan="4">47" × 23" × 10"</td></tr>
-                        <tr><td>Packaging Box</td><td>Inches</td><td class="highlight-col" colspan="4">55" × 31.5" × 12"</td></tr>
-                        <tr><td>Weight (packaged)</td><td>lbs</td><td class="highlight-col">105</td><td class="highlight-col">120</td><td>120</td><td>128</td></tr>
+                    <!-- ===== SUPPLY DUCTS ===== -->
+                    <!-- Duct 1 -->
+                    <rect x="260" y="108" width="3" height="32" fill="#bae6fd" rx="1.5"/>
+                    <rect x="250" y="138" width="22" height="6" rx="3" fill="#7dd3fc"/>
+                    <!-- Duct 2 -->
+                    <rect x="380" y="108" width="3" height="32" fill="#bae6fd" rx="1.5"/>
+                    <rect x="370" y="138" width="22" height="6" rx="3" fill="#7dd3fc"/>
+                    <!-- Duct 3 -->
+                    <rect x="500" y="108" width="3" height="32" fill="#bae6fd" rx="1.5"/>
+                    <rect x="490" y="138" width="22" height="6" rx="3" fill="#7dd3fc"/>
 
-                        <tr class="section-row"><td colspan="6">Connections</td></tr>
-                        <tr><td>Supply Air Outputs</td><td></td><td class="highlight-col" colspan="4">4× horizontal (100mm) + 4× vertical (100mm)</td></tr>
-                        <tr><td>Return Air Intakes</td><td></td><td class="highlight-col" colspan="4">2× (160mm flanges, either side)</td></tr>
-                        <tr><td>Condenser Air Intake</td><td></td><td class="highlight-col" colspan="4">2× (200mm flanges)</td></tr>
-                        <tr><td>Hot Exhaust Output</td><td></td><td class="highlight-col" colspan="4">1× horizontal (200mm) + 1× vertical option</td></tr>
+                    <!-- ===== COOL AIR FLOW ===== -->
+                    <!-- Animated cool air streams from each vent -->
+                    <g class="cool-air-stream">
+                        <!-- Vent 1 streams -->
+                        <line x1="252" y1="148" x2="232" y2="310" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="261" y1="148" x2="261" y2="330" stroke="url(#coolGrad)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                        <line x1="270" y1="148" x2="285" y2="300" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <!-- Vent 2 streams -->
+                        <line x1="372" y1="148" x2="355" y2="320" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="381" y1="148" x2="381" y2="340" stroke="url(#coolGrad)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                        <line x1="390" y1="148" x2="405" y2="310" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <!-- Vent 3 streams -->
+                        <line x1="492" y1="148" x2="478" y2="300" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="501" y1="148" x2="501" y2="320" stroke="url(#coolGrad)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                        <line x1="510" y1="148" x2="525" y2="290" stroke="url(#coolGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
 
-                        <tr class="section-row"><td colspan="6">Protection</td></tr>
-                        <tr><td>Antifreeze — Stop</td><td>°F</td><td class="highlight-col" colspan="4">30°F (-1.5°C)</td></tr>
-                        <tr><td>Antifreeze — Restart</td><td>°F</td><td class="highlight-col" colspan="4">61°F (+16°C)</td></tr>
-                        <tr><td>Compressor Overheat</td><td>°F</td><td class="highlight-col" colspan="4">302°F (150°C)</td></tr>
-                    </tbody>
-                </table>
-            </div>
+                        <!-- Animated particles -->
+                        <circle r="3" fill="#38bdf8">
+                            <animate attributeName="cx" values="261;261" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="cy" values="148;330" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.9;0.1" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="r" values="3;1.5" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle r="2.5" fill="#38bdf8">
+                            <animate attributeName="cx" values="261;261" dur="3s" repeatCount="indefinite" begin="1s"/>
+                            <animate attributeName="cy" values="148;330" dur="3s" repeatCount="indefinite" begin="1s"/>
+                            <animate attributeName="opacity" values="0.8;0.1" dur="3s" repeatCount="indefinite" begin="1s"/>
+                        </circle>
+                        <circle r="3" fill="#38bdf8">
+                            <animate attributeName="cx" values="381;381" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+                            <animate attributeName="cy" values="148;340" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+                            <animate attributeName="opacity" values="0.9;0.1" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+                            <animate attributeName="r" values="3;1.5" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+                        </circle>
+                        <circle r="2.5" fill="#38bdf8">
+                            <animate attributeName="cx" values="381;381" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+                            <animate attributeName="cy" values="148;340" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+                            <animate attributeName="opacity" values="0.8;0.1" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+                        </circle>
+                        <circle r="3" fill="#38bdf8">
+                            <animate attributeName="cx" values="501;501" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                            <animate attributeName="cy" values="148;320" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                            <animate attributeName="opacity" values="0.9;0.1" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                            <animate attributeName="r" values="3;1.5" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+                        </circle>
+                    </g>
 
-            <div class="specs-notes">
-                <p><strong>Rated Conditions:</strong> ISO Standard 5151 — T1: Outdoor 95°F (35°C) / Indoor 80°F (27°C) — 50% RH</p>
-                <p><strong>Note:</strong> Values in parentheses indicate 115V specifications. Models 15 and 18 available for contractors and distributors. Model 18 is 230V only.</p>
-                <p><strong>Receptacle:</strong> NEMA 5-20R (115V) or NEMA 6-20R (230V)</p>
-            </div>
+                    <!-- ===== RETURN AIR DUCT ===== -->
+                    <rect x="156" y="108" width="3" height="32" fill="#fde68a" rx="1.5"/>
+                    <rect x="146" y="138" width="22" height="6" rx="3" fill="#fbbf24"/>
 
-            <!-- Heating option table -->
-            <div class="section-header" style="margin-top:4rem">
-                <h3>Optional Ceramic Heating Elements</h3>
-                <p>Self-variable ceramic electrical heating elements for year-round climate control.</p>
-            </div>
-            <div class="specs-table-wrapper">
-                <table class="specs-table compact">
-                    <thead>
-                        <tr>
-                            <th>Configuration</th>
-                            <th>Voltage</th>
-                            <th>Heating Output</th>
-                            <th>BTU</th>
-                            <th>Max Amps</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>Combo 1 (2 × 1,100W)</td><td>110–115V</td><td>2,200W</td><td>7,500</td><td>19.1A</td></tr>
-                        <tr><td>Combo 2 (2 × 1,800W)</td><td>208–254V</td><td>3,600W</td><td>12,276</td><td>16.0A</td></tr>
-                        <tr><td>Combo 3 (1 × 1,800W)</td><td>208–254V</td><td>1,800W</td><td>6,140</td><td>7.8A</td></tr>
-                    </tbody>
-                </table>
-            </div>
+                    <!-- Return air flow (warm air going up) -->
+                    <g id="return-air-flow">
+                        <line x1="148" y1="310" x2="155" y2="148" stroke="url(#warmGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <line x1="157" y1="330" x2="157" y2="148" stroke="url(#warmGrad)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                        <line x1="166" y1="300" x2="162" y2="148" stroke="url(#warmGrad)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                        <circle r="3" fill="#f59e0b">
+                            <animate attributeName="cx" values="157;157" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="cy" values="330;148" dur="3s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.8;0.1" dur="3s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle r="2.5" fill="#f59e0b">
+                            <animate attributeName="cx" values="157;157" dur="3s" repeatCount="indefinite" begin="1s"/>
+                            <animate attributeName="cy" values="310;148" dur="3s" repeatCount="indefinite" begin="1s"/>
+                            <animate attributeName="opacity" values="0.7;0.1" dur="3s" repeatCount="indefinite" begin="1s"/>
+                        </circle>
+                    </g>
 
-            <!-- Connection diagram -->
-            <div class="section-header" style="margin-top:4rem" id="vertical-specs">
-                <h3>Air Connection Layout</h3>
-                <p>Multiple connection options for maximum installation flexibility.</p>
-            </div>
-            <div class="connection-diagram">
-                <svg viewBox="0 0 800 400" fill="none" class="connection-svg">
-                    <!-- Unit body top view -->
-                    <rect x="150" y="80" width="500" height="240" rx="8" fill="#1E293B" stroke="#334155" stroke-width="2"/>
-                    <text x="400" y="210" text-anchor="middle" fill="#475569" font-size="16" font-family="Inter" font-weight="600">UKT ATTIC COMPACT</text>
-                    <text x="400" y="230" text-anchor="middle" fill="#334155" font-size="12" font-family="JetBrains Mono">53" × 30" × 10"</text>
+                    <!-- ===== EXHAUST DUCT (to exterior) ===== -->
+                    <rect x="600" y="60" width="256" height="16" rx="4" fill="#fee2e2" stroke="#fecaca" stroke-width="1"/>
+                    <g id="exhaust-flow">
+                        <circle r="3" fill="#ef4444">
+                            <animate attributeName="cx" values="610;850" dur="2.5s" repeatCount="indefinite"/>
+                            <animate attributeName="cy" values="68;68" dur="2.5s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.8;0.2" dur="2.5s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle r="2.5" fill="#ef4444">
+                            <animate attributeName="cx" values="610;850" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+                            <animate attributeName="cy" values="68;68" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+                            <animate attributeName="opacity" values="0.7;0.15" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+                        </circle>
+                        <circle r="2" fill="#ef4444">
+                            <animate attributeName="cx" values="610;850" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+                            <animate attributeName="cy" values="68;68" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+                            <animate attributeName="opacity" values="0.6;0.1" dur="2.5s" repeatCount="indefinite" begin="1.6s"/>
+                        </circle>
+                    </g>
 
-                    <!-- A outputs (top) - supply air -->
-                    <circle cx="230" cy="80" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2"/>
-                    <text x="230" y="84" text-anchor="middle" fill="#60A5FA" font-size="9" font-weight="700">A</text>
-                    <circle cx="310" cy="80" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2"/>
-                    <text x="310" y="84" text-anchor="middle" fill="#60A5FA" font-size="9" font-weight="700">A</text>
-                    <circle cx="390" cy="80" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2"/>
-                    <text x="390" y="84" text-anchor="middle" fill="#60A5FA" font-size="9" font-weight="700">A</text>
-                    <circle cx="470" cy="80" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2"/>
-                    <text x="470" y="84" text-anchor="middle" fill="#60A5FA" font-size="9" font-weight="700">A</text>
-                    <text x="350" y="55" text-anchor="middle" fill="#60A5FA" font-size="11" font-family="Inter" font-weight="600">A — 4× SUPPLY AIR (100mm horizontal)</text>
+                    <!-- ===== FRESH AIR DUCT (from exterior) ===== -->
+                    <rect x="600" y="84" width="256" height="14" rx="4" fill="#d1fae5" stroke="#a7f3d0" stroke-width="1"/>
+                    <g id="fresh-air-flow">
+                        <circle r="2.5" fill="#10b981">
+                            <animate attributeName="cx" values="850;610" dur="2.8s" repeatCount="indefinite"/>
+                            <animate attributeName="cy" values="91;91" dur="2.8s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.8;0.2" dur="2.8s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle r="2" fill="#10b981">
+                            <animate attributeName="cx" values="850;610" dur="2.8s" repeatCount="indefinite" begin="0.9s"/>
+                            <animate attributeName="cy" values="91;91" dur="2.8s" repeatCount="indefinite" begin="0.9s"/>
+                            <animate attributeName="opacity" values="0.7;0.15" dur="2.8s" repeatCount="indefinite" begin="0.9s"/>
+                        </circle>
+                    </g>
 
-                    <!-- A1 outputs (bottom) - vertical supply -->
-                    <circle cx="230" cy="320" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="230" y="324" text-anchor="middle" fill="#60A5FA" font-size="8" font-weight="700">A1</text>
-                    <circle cx="310" cy="320" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="310" y="324" text-anchor="middle" fill="#60A5FA" font-size="8" font-weight="700">A1</text>
-                    <circle cx="390" cy="320" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="390" y="324" text-anchor="middle" fill="#60A5FA" font-size="8" font-weight="700">A1</text>
-                    <circle cx="470" cy="320" r="14" fill="#0F172A" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="470" y="324" text-anchor="middle" fill="#60A5FA" font-size="8" font-weight="700">A1</text>
-                    <text x="350" y="360" text-anchor="middle" fill="#60A5FA" font-size="11" font-family="Inter">A1 — 4× SUPPLY AIR (100mm vertical)</text>
+                    <!-- ===== EXTERIOR LOUVER ===== -->
+                    <rect x="860" y="54" width="14" height="52" rx="3" fill="#e5e7eb"/>
+                    <line x1="863" y1="62" x2="871" y2="62" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="863" y1="70" x2="871" y2="70" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="863" y1="78" x2="871" y2="78" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="863" y1="86" x2="871" y2="86" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
+                    <line x1="863" y1="94" x2="871" y2="94" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round"/>
 
-                    <!-- B/B1 return air (left side) -->
-                    <rect x="130" y="140" width="20" height="40" rx="4" fill="#0F172A" stroke="#FCD34D" stroke-width="2"/>
-                    <text x="140" y="165" text-anchor="middle" fill="#FCD34D" font-size="9" font-weight="700">B</text>
-                    <rect x="130" y="220" width="20" height="40" rx="4" fill="#0F172A" stroke="#FCD34D" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="140" y="245" text-anchor="middle" fill="#FCD34D" font-size="8" font-weight="700">B1</text>
-                    <text x="80" y="195" text-anchor="middle" fill="#FCD34D" font-size="10" font-family="Inter" font-weight="600" transform="rotate(-90,80,195)">RETURN AIR (160mm)</text>
+                    <!-- ===== LABELS ===== -->
+                    <text x="261" y="170" text-anchor="middle" fill="#0ea5e9" font-size="10" font-family="Inter" font-weight="600">Cool air</text>
+                    <text x="381" y="170" text-anchor="middle" fill="#0ea5e9" font-size="10" font-family="Inter" font-weight="600">Cool air</text>
+                    <text x="501" y="170" text-anchor="middle" fill="#0ea5e9" font-size="10" font-family="Inter" font-weight="600">Cool air</text>
+                    <text x="157" y="348" text-anchor="middle" fill="#d97706" font-size="10" font-family="Inter" font-weight="600">Return air</text>
+                    <text x="728" y="56" text-anchor="middle" fill="#dc2626" font-size="10" font-family="Inter" font-weight="600">Hot exhaust → out</text>
+                    <text x="728" y="110" text-anchor="middle" fill="#059669" font-size="10" font-family="Inter" font-weight="600">← Fresh air in</text>
 
-                    <!-- C/C1 condenser intake (left) -->
-                    <rect x="650" y="110" width="20" height="50" rx="4" fill="#0F172A" stroke="#34D399" stroke-width="2"/>
-                    <text x="660" y="140" text-anchor="middle" fill="#34D399" font-size="9" font-weight="700">C</text>
-                    <rect x="650" y="240" width="20" height="50" rx="4" fill="#0F172A" stroke="#34D399" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="660" y="270" text-anchor="middle" fill="#34D399" font-size="8" font-weight="700">C1</text>
-                    <text x="720" y="195" text-anchor="middle" fill="#34D399" font-size="10" font-family="Inter" font-weight="600" transform="rotate(90,720,195)">CONDENSER INTAKE (200mm)</text>
+                    <!-- ===== ROOM CONTENTS ===== -->
+                    <!-- Sofa -->
+                    <rect x="220" y="366" width="140" height="50" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+                    <rect x="224" y="358" width="132" height="12" rx="6" fill="#e5e7eb"/>
+                    <!-- Person silhouette -->
+                    <circle cx="620" cy="340" r="14" fill="#e5e7eb"/>
+                    <rect x="612" y="356" width="16" height="30" rx="5" fill="#e5e7eb"/>
+                    <rect x="604" y="386" width="32" height="30" rx="4" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
 
-                    <!-- D exhaust -->
-                    <rect x="570" y="80" width="40" height="20" rx="4" fill="#0F172A" stroke="#F87171" stroke-width="2"/>
-                    <text x="590" y="94" text-anchor="middle" fill="#F87171" font-size="9" font-weight="700">D</text>
-                    <text x="590" y="55" text-anchor="middle" fill="#F87171" font-size="11" font-family="Inter" font-weight="600">D — EXHAUST (200mm)</text>
+                    <!-- Temperature badge -->
+                    <rect x="680" y="344" width="56" height="28" rx="14" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1"/>
+                    <text x="708" y="362" text-anchor="middle" fill="#0d9488" font-size="12" font-family="Inter" font-weight="700">72°F</text>
 
-                    <!-- D1 exhaust alt -->
-                    <rect x="570" y="300" width="40" height="20" rx="4" fill="#0F172A" stroke="#F87171" stroke-width="2" stroke-dasharray="4,2"/>
-                    <text x="590" y="314" text-anchor="middle" fill="#F87171" font-size="8" font-weight="700">D1</text>
-                    <text x="590" y="360" text-anchor="middle" fill="#F87171" font-size="10" font-family="Inter">D1 — ALT EXHAUST</text>
+                    <!-- ===== GRADIENT DEFS ===== -->
+                    <defs>
+                        <linearGradient id="coolGrad" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7"/>
+                            <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.05"/>
+                        </linearGradient>
+                        <linearGradient id="warmGrad" x1="0" y1="1" x2="0" y2="0">
+                            <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+                            <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.05"/>
+                        </linearGradient>
+                        <filter id="shadow" x="-4%" y="-4%" width="108%" height="116%">
+                            <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#0d9488" flood-opacity="0.08"/>
+                        </filter>
+                    </defs>
                 </svg>
             </div>
-        </div>
-    </section>
 
-    <!-- Applications Section -->
-    <section class="apps-section" id="applications">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Applications</span>
-                <h2>Where UKT Fits</h2>
-                <p>Designed for spaces where traditional HVAC systems simply cannot go.</p>
-            </div>
-            <div class="apps-grid">
-                <div class="app-card">
-                    <div class="app-icon">🏛️</div>
-                    <h4>Historic Buildings</h4>
-                    <p>No exterior modifications required. Preserve the building facade while adding modern climate control. Meets landmark preservation requirements.</p>
-                </div>
-                <div class="app-card">
-                    <div class="app-icon">🏢</div>
-                    <h4>Apartments &amp; Condos</h4>
-                    <p>Perfect for buildings that prohibit outdoor condensers. Co-op and condo board approved — nothing visible from outside.</p>
-                </div>
-                <div class="app-card">
-                    <div class="app-icon">🔧</div>
-                    <h4>Renovations</h4>
-                    <p>Retrofit air conditioning into existing spaces without major structural work. Fits in existing ceiling cavities as shallow as 10 inches.</p>
-                </div>
-                <div class="app-card">
-                    <div class="app-icon">🏗️</div>
-                    <h4>Temporary Structures</h4>
-                    <p>Trade show booths, construction offices, portable buildings, and exhibition spaces. Quick install, quick removal.</p>
-                </div>
-                <div class="app-card">
-                    <div class="app-icon">🚐</div>
-                    <h4>RV &amp; Marine</h4>
-                    <p>Patented designs for recreational vehicles and marine applications. No rooftop unit needed — mounts under the floor or in a compartment.</p>
-                </div>
-                <div class="app-card">
-                    <div class="app-icon">🏥</div>
-                    <h4>Clean Air Spaces</h4>
-                    <p>Optional UV lamp integration for air sanitization. Reduces airborne bacteria and improves oxygen levels. Ideal for medical and office environments.</p>
-                </div>
+            <!-- Legend -->
+            <div class="airflow-legend">
+                <div class="legend-item"><span class="legend-swatch" style="background:#38bdf8"></span>Cooled supply air</div>
+                <div class="legend-item"><span class="legend-swatch" style="background:#f59e0b"></span>Warm return air</div>
+                <div class="legend-item"><span class="legend-swatch" style="background:#ef4444"></span>Hot exhaust (to outside)</div>
+                <div class="legend-item"><span class="legend-swatch" style="background:#10b981"></span>Fresh outdoor air</div>
             </div>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="about-section" id="about">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <span class="section-tag">About UKT</span>
-                    <h2>Engineering Climate Solutions Since 1998</h2>
-                    <p>United Klima Technologies is a Michigan-based HVAC manufacturer specializing in systems that require <strong>no outdoor condenser unit</strong>. Our engineering team brings together expertise from the United States, Europe, and Israel to solve a problem that traditional HVAC manufacturers have ignored: how to provide real air conditioning when you simply cannot install an outdoor unit.</p>
-                    <p>Every UKT system is designed and assembled in Michigan. Our products serve residential, commercial, government, and mobile applications across North America and internationally.</p>
-                    <div class="cert-badges">
-                        <div class="cert-badge">
-                            <strong>US Patent</strong>
-                            <span>12,403,745 B2</span>
-                        </div>
-                        <div class="cert-badge">
-                            <strong>CAGE Code</strong>
-                            <span>9U4M7</span>
-                        </div>
-                        <div class="cert-badge">
-                            <strong>SAM.gov</strong>
-                            <span>Registered</span>
-                        </div>
-                        <div class="cert-badge">
-                            <strong>Made in</strong>
-                            <span>Michigan, USA</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-timeline">
-                    <div class="timeline-item">
-                        <span class="timeline-year">1998</span>
-                        <span class="timeline-text">Company founded — development of first HVAC prototypes without outdoor units</span>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="timeline-year">2010s</span>
-                        <span class="timeline-text">Expansion into RV and marine HVAC applications</span>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="timeline-year">2025</span>
-                        <span class="timeline-text">US Patent 12,403,745 B2 granted for integrated HVAC systems</span>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="timeline-year">2026</span>
-                        <span class="timeline-text">Attic Compact, Vertical, and Baby HVAC product lines available</span>
-                    </div>
-                </div>
+        <!-- Features -->
+        <div class="features-row">
+            <div class="feature-item">
+                <h4>Truly invisible</h4>
+                <p>Mounts entirely inside the ceiling. Only discreet supply grilles are visible indoors. Nothing on the exterior.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Quick retrofit</h4>
+                <p>No refrigerant lines between units. No outdoor pad or structural support. Dramatically faster than split systems.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Flexible ducting</h4>
+                <p>Up to 4 supply outputs with 100 mm flex duct connections. Return air from either side. Any room layout.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Fresh air modes</h4>
+                <p>Three ventilation modes — recirculated, 50/50 mixed, or 100% fresh outdoor air. Meets ventilation codes.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Heat recovery</h4>
+                <p>Proprietary condensate heat recovery recycles moisture energy to boost efficiency and lower electricity use.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Full metal build</h4>
+                <p>Aluminum alloy and galvanized steel. Corrosion-resistant, powder-coated. Built for decades of operation.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Vertical Ductable Detail -->
-    <section class="detail-section" id="vertical-detail">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Product Detail</span>
-                <h2>Vertical Ductable HVAC</h2>
-                <p>Fits in a 12-inch wall strip with optional hydronic heating integration.</p>
-            </div>
-            <div class="detail-grid">
-                <div class="detail-features">
-                    <h3>Key Features</h3>
-                    <ul class="feature-list">
-                        <li>Front &amp; lateral removable panels for easy service</li>
-                        <li>Galvanized steel or aluminum alloy cabinet</li>
-                        <li>Corrosion resistant, powder coated</li>
-                        <li>Thermal and noise insulation</li>
-                        <li>Twin condenser extraction blowers</li>
-                        <li>Micro-channel high-efficiency condenser</li>
-                        <li>High-efficiency evaporator heat exchanger</li>
-                        <li>Integrated water radiator (hydronic option)</li>
-                        <li>Integrated water pump (hydronic option)</li>
-                        <li>Easy replaceable air filter</li>
-                        <li>High ventilation flow rate — standard or HD</li>
-                        <li>Three ventilation speeds</li>
-                        <li>24V remote wall control</li>
-                        <li>Auxiliary 24V DC lateral socket</li>
-                        <li>Integrated 24V DC transformer</li>
-                    </ul>
+<!-- Specifications -->
+<section class="specs-section" id="specs">
+    <div class="container">
+        <div class="section-intro">
+            <p class="section-label">Specifications</p>
+            <h2>Attic Compact<br>technical data.</h2>
+            <p class="section-desc">Complete engineering data for all models. Available in 115V and 230V configurations.</p>
+        </div>
+
+        <!-- Model tabs -->
+        <div class="spec-tabs">
+            <button class="spec-tab active" data-model="9">Mod 9<span>9,500 BTU</span></button>
+            <button class="spec-tab" data-model="12">Mod 12<span>12,500 BTU</span></button>
+            <button class="spec-tab" data-model="15">Mod 15<span>15,100 BTU</span></button>
+            <button class="spec-tab" data-model="18">Mod 18<span>17,900 BTU</span></button>
+        </div>
+
+        <!-- Spec panels -->
+        <div class="spec-panel active" data-panel="9">
+            <div class="spec-grid">
+                <div class="spec-group">
+                    <h4>Cooling Performance</h4>
+                    <dl class="spec-list">
+                        <div><dt>Cooling capacity</dt><dd>9,500 BTU &middot; 2,785 W</dd></div>
+                        <div><dt>Sensible heat</dt><dd>2.04 kW</dd></div>
+                        <div><dt>Latent heat</dt><dd>0.74 kW</dd></div>
+                        <div><dt>Moisture removal</dt><dd>2.1 pints/hr</dd></div>
+                        <div><dt>EER</dt><dd>10.9 BTU/W</dd></div>
+                    </dl>
                 </div>
-                <div class="detail-specs">
-                    <h3>Dimensions</h3>
-                    <div class="dimension-card">
-                        <div class="dim-row"><span>Width</span><strong>12" (300mm)</strong></div>
-                        <div class="dim-row"><span>Depth</span><strong>12" (300mm)</strong></div>
-                        <div class="dim-row"><span>Height</span><strong>65" (1650mm)</strong></div>
-                    </div>
-                    <h3 style="margin-top:2rem">Hydronic Heating</h3>
-                    <p>The integrated water radiator and pump connect to any hydronic heating system. No hydraulic balancing required — the built-in pump ensures proper flow regardless of system configuration.</p>
-                    <p>Ideal for buildings with existing hot water heating infrastructure that need cooling added.</p>
+                <div class="spec-group">
+                    <h4>Electrical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Voltage</dt><dd>115V or 230V &middot; 50/60 Hz</dd></div>
+                        <div><dt>Running amps (230V)</dt><dd>3.8 A</dd></div>
+                        <div><dt>Running amps (115V)</dt><dd>7.6 A</dd></div>
+                        <div><dt>Power consumption</dt><dd>0.87 kW</dd></div>
+                        <div><dt>LRA / RLA (230V)</dt><dd>25 A / 3.3 A</dd></div>
+                        <div><dt>LRA / RLA (115V)</dt><dd>55 A / 6.6 A</dd></div>
+                        <div><dt>Power factor</dt><dd>0.99</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Airflow</h4>
+                    <dl class="spec-list">
+                        <div><dt>High speed</dt><dd>310 CFM</dd></div>
+                        <div><dt>Medium speed</dt><dd>210 CFM</dd></div>
+                        <div><dt>Low speed</dt><dd>120 CFM</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Physical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Dimensions (with flanges)</dt><dd>53″ × 30″ × 10″</dd></div>
+                        <div><dt>Unit body</dt><dd>47″ × 23″ × 10″</dd></div>
+                        <div><dt>Weight (packaged)</dt><dd>105 lbs</dd></div>
+                        <div><dt>Receptacle</dt><dd>NEMA 5-20R (115V) / 6-20R (230V)</dd></div>
+                    </dl>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <span class="section-tag">Get Started</span>
-                    <h2>Ready to Eliminate Your Outdoor Unit?</h2>
-                    <p>Contact us for product specifications, pricing, installation guidance, or to connect with a certified installer in your area.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <strong>Manufacturer</strong>
-                            <span>United Klima Technologies — Michigan LLC</span>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Website</strong>
-                            <a href="https://www.ukt.us" target="_blank">www.ukt.us</a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Distributors &amp; Contractors</strong>
-                            <span>Contact us for wholesale pricing and volume availability. Models 15 and 18 available for contractors only.</span>
-                        </div>
-                    </div>
+        <div class="spec-panel" data-panel="12">
+            <div class="spec-grid">
+                <div class="spec-group">
+                    <h4>Cooling Performance</h4>
+                    <dl class="spec-list">
+                        <div><dt>Cooling capacity</dt><dd>12,500 BTU &middot; 3,665 W</dd></div>
+                        <div><dt>Sensible heat</dt><dd>2.39 kW</dd></div>
+                        <div><dt>Latent heat</dt><dd>1.26 kW</dd></div>
+                        <div><dt>Moisture removal</dt><dd>3.6 pints/hr</dd></div>
+                        <div><dt>EER</dt><dd>10.3 BTU/W</dd></div>
+                    </dl>
                 </div>
-                <div class="contact-form-area">
-                    <form class="contact-form" onsubmit="return handleSubmit(event)">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required placeholder="Your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required placeholder="you@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="type">I am a...</label>
-                            <select id="type" name="type">
-                                <option value="homeowner">Homeowner</option>
-                                <option value="contractor">HVAC Contractor</option>
-                                <option value="architect">Architect / Designer</option>
-                                <option value="property">Property Manager</option>
-                                <option value="distributor">Distributor</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="product">Interested In</label>
-                            <select id="product" name="product">
-                                <option value="attic-compact">Attic Compact</option>
-                                <option value="vertical-ductable">Vertical Ductable</option>
-                                <option value="vertical-hvac">Vertical HVAC</option>
-                                <option value="baby">Baby HVAC</option>
-                                <option value="custom">Custom / Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
-                    </form>
+                <div class="spec-group">
+                    <h4>Electrical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Voltage</dt><dd>115V or 230V &middot; 50/60 Hz</dd></div>
+                        <div><dt>Running amps (230V)</dt><dd>5.3 A</dd></div>
+                        <div><dt>Running amps (115V)</dt><dd>10.6 A</dd></div>
+                        <div><dt>Power consumption</dt><dd>1.21 kW</dd></div>
+                        <div><dt>LRA / RLA (230V)</dt><dd>27 A / 4.8 A</dd></div>
+                        <div><dt>LRA / RLA (115V)</dt><dd>59 A / 9.6 A</dd></div>
+                        <div><dt>Power factor</dt><dd>0.99</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Airflow</h4>
+                    <dl class="spec-list">
+                        <div><dt>High speed</dt><dd>310 CFM</dd></div>
+                        <div><dt>Medium speed</dt><dd>210 CFM</dd></div>
+                        <div><dt>Low speed</dt><dd>155 CFM</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Physical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Dimensions (with flanges)</dt><dd>53″ × 30″ × 10″</dd></div>
+                        <div><dt>Unit body</dt><dd>47″ × 23″ × 10″</dd></div>
+                        <div><dt>Weight (packaged)</dt><dd>120 lbs</dd></div>
+                        <div><dt>Receptacle</dt><dd>NEMA 5-20R (115V) / 6-20R (230V)</dd></div>
+                    </dl>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
-                        <rect width="40" height="40" rx="8" fill="#0EA5E9"/>
-                        <path d="M10 12h6v16h-6zM16 12h8l-8 16h8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                        <path d="M26 12h4v16h-4" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                    </svg>
-                    <p>Air conditioning without outdoor units.<br>Designed and manufactured in Michigan, USA.</p>
+        <div class="spec-panel" data-panel="15">
+            <div class="spec-grid">
+                <div class="spec-group">
+                    <h4>Cooling Performance</h4>
+                    <dl class="spec-list">
+                        <div><dt>Cooling capacity</dt><dd>15,100 BTU &middot; 4,430 W</dd></div>
+                        <div><dt>Sensible heat</dt><dd>2.70 kW</dd></div>
+                        <div><dt>Latent heat</dt><dd>1.73 kW</dd></div>
+                        <div><dt>Moisture removal</dt><dd>4.4 pints/hr</dd></div>
+                        <div><dt>EER</dt><dd>10.2 BTU/W</dd></div>
+                    </dl>
                 </div>
-                <div class="footer-links">
-                    <h5>Products</h5>
-                    <a href="#attic-compact">Attic Compact</a>
-                    <a href="#vertical">Vertical Ductable</a>
-                    <a href="#vertical-hvac">Vertical HVAC</a>
-                    <a href="#baby-hvac">Baby HVAC</a>
+                <div class="spec-group">
+                    <h4>Electrical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Voltage</dt><dd>115V or 230V &middot; 50/60 Hz</dd></div>
+                        <div><dt>Running amps (230V)</dt><dd>6.4 A</dd></div>
+                        <div><dt>Running amps (115V)</dt><dd>13.0 A</dd></div>
+                        <div><dt>Power consumption</dt><dd>1.48 kW</dd></div>
+                        <div><dt>LRA / RLA (230V)</dt><dd>32 A / 5.3 A</dd></div>
+                        <div><dt>LRA / RLA (115V)</dt><dd>65 A / 11.0 A</dd></div>
+                        <div><dt>Power factor</dt><dd>0.99</dd></div>
+                    </dl>
                 </div>
-                <div class="footer-links">
-                    <h5>Resources</h5>
-                    <a href="#specs">Technical Specs</a>
-                    <a href="#how-it-works">How It Works</a>
-                    <a href="#applications">Applications</a>
-                    <a href="#contact">Contact</a>
+                <div class="spec-group">
+                    <h4>Airflow</h4>
+                    <dl class="spec-list">
+                        <div><dt>High speed</dt><dd>380 CFM</dd></div>
+                        <div><dt>Medium speed</dt><dd>312 CFM</dd></div>
+                        <div><dt>Low speed</dt><dd>210 CFM</dd></div>
+                    </dl>
                 </div>
-                <div class="footer-links">
-                    <h5>Company</h5>
-                    <a href="#about">About UKT</a>
-                    <a href="https://www.ukt.us" target="_blank">Official Site</a>
-                    <a href="#contact">Become a Dealer</a>
+                <div class="spec-group">
+                    <h4>Physical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Dimensions (with flanges)</dt><dd>53″ × 30″ × 10″</dd></div>
+                        <div><dt>Unit body</dt><dd>47″ × 23″ × 10″</dd></div>
+                        <div><dt>Weight (packaged)</dt><dd>120 lbs</dd></div>
+                        <div><dt>Receptacle</dt><dd>NEMA 5-20R (115V) / 6-20R (230V)</dd></div>
+                    </dl>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 1998–2026 United Klima Technologies Group. All rights reserved.</p>
-                <p>US Patent 12,403,745 B2 &middot; CAGE Code 9U4M7 &middot; SAM.gov Registered</p>
             </div>
         </div>
-    </footer>
+        <div class="spec-panel" data-panel="18">
+            <div class="spec-grid">
+                <div class="spec-group">
+                    <h4>Cooling Performance</h4>
+                    <dl class="spec-list">
+                        <div><dt>Cooling capacity</dt><dd>17,900 BTU &middot; 5,250 W</dd></div>
+                        <div><dt>Sensible heat</dt><dd>3.20 kW</dd></div>
+                        <div><dt>Latent heat</dt><dd>2.00 kW</dd></div>
+                        <div><dt>Moisture removal</dt><dd>5.3 pints/hr</dd></div>
+                        <div><dt>EER</dt><dd>9.8 BTU/W</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Electrical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Voltage</dt><dd>230V only &middot; 50/60 Hz</dd></div>
+                        <div><dt>Running amps</dt><dd>8.0 A</dd></div>
+                        <div><dt>Power consumption</dt><dd>1.84 kW</dd></div>
+                        <div><dt>LRA / RLA</dt><dd>38 A / 7.1 A</dd></div>
+                        <div><dt>Power factor</dt><dd>0.99</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Airflow</h4>
+                    <dl class="spec-list">
+                        <div><dt>High speed</dt><dd>412 CFM</dd></div>
+                        <div><dt>Medium speed</dt><dd>312 CFM</dd></div>
+                        <div><dt>Low speed</dt><dd>235 CFM</dd></div>
+                    </dl>
+                </div>
+                <div class="spec-group">
+                    <h4>Physical</h4>
+                    <dl class="spec-list">
+                        <div><dt>Dimensions (with flanges)</dt><dd>53″ × 30″ × 10″</dd></div>
+                        <div><dt>Unit body</dt><dd>47″ × 23″ × 10″</dd></div>
+                        <div><dt>Weight (packaged)</dt><dd>128 lbs</dd></div>
+                        <div><dt>Receptacle</dt><dd>NEMA 6-20R (230V)</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </div>
 
-    <script src="js/main.js"></script>
+        <!-- Connections -->
+        <div class="connections-info">
+            <h3>Air connections</h3>
+            <div class="connections-grid">
+                <div class="conn-item conn-cool">
+                    <span class="conn-letter">A / A1</span>
+                    <strong>Supply air</strong>
+                    <p>4× horizontal + 4× vertical outputs (100 mm)</p>
+                </div>
+                <div class="conn-item conn-warm">
+                    <span class="conn-letter">B / B1</span>
+                    <strong>Return air</strong>
+                    <p>2× intakes with 160 mm flanges (either side)</p>
+                </div>
+                <div class="conn-item conn-fresh">
+                    <span class="conn-letter">C / C1</span>
+                    <strong>Condenser intake</strong>
+                    <p>2× intakes with 200 mm flanges</p>
+                </div>
+                <div class="conn-item conn-exhaust">
+                    <span class="conn-letter">D / D1</span>
+                    <strong>Hot exhaust</strong>
+                    <p>1× horizontal + 1× vertical option (200 mm)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Heating options -->
+        <div class="heating-info">
+            <h3>Optional ceramic heating elements</h3>
+            <p class="heating-desc">Self-variable ceramic electrical heating elements for year-round climate control.</p>
+            <div class="heating-grid">
+                <div class="heating-card">
+                    <span class="heating-label">Combo 1</span>
+                    <strong>2 × 1,100 W</strong>
+                    <p>110–115V &middot; 7,500 BTU &middot; 19.1 A max</p>
+                </div>
+                <div class="heating-card">
+                    <span class="heating-label">Combo 2</span>
+                    <strong>2 × 1,800 W</strong>
+                    <p>208–254V &middot; 12,276 BTU &middot; 16.0 A max</p>
+                </div>
+                <div class="heating-card">
+                    <span class="heating-label">Combo 3</span>
+                    <strong>1 × 1,800 W</strong>
+                    <p>208–254V &middot; 6,140 BTU &middot; 7.8 A max</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spec-notes">
+            <p><strong>Rated conditions:</strong> ISO 5151 — T1: Outdoor 95 °F (35 °C) / Indoor 80 °F (27 °C) — 50% RH</p>
+            <p>Models 15 and 18 available for contractors and distributors. Model 18 is 230V only.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Applications -->
+<section class="apps-section" id="applications">
+    <div class="container">
+        <div class="section-intro">
+            <p class="section-label">Applications</p>
+            <h2>Where UKT fits.</h2>
+        </div>
+        <div class="apps-grid">
+            <div class="app-card"><div class="app-icon">🏛️</div><h4>Historic buildings</h4><p>No exterior modifications. Meets landmark and preservation requirements.</p></div>
+            <div class="app-card"><div class="app-icon">🏢</div><h4>Apartments &amp; condos</h4><p>Board-approved. Nothing visible from outside the building.</p></div>
+            <div class="app-card"><div class="app-icon">🔧</div><h4>Renovations</h4><p>Retrofit into existing spaces without major structural work.</p></div>
+            <div class="app-card"><div class="app-icon">🏗️</div><h4>Temporary structures</h4><p>Trade shows, construction offices, portable buildings.</p></div>
+            <div class="app-card"><div class="app-icon">🚐</div><h4>RV &amp; marine</h4><p>Patented designs for vehicles and boats. No rooftop unit.</p></div>
+            <div class="app-card"><div class="app-icon">🏥</div><h4>Clean air spaces</h4><p>Optional UV lamp for air sanitization. Medical and office use.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about-section" id="about">
+    <div class="container">
+        <div class="about-layout">
+            <div class="about-text">
+                <p class="section-label">About</p>
+                <h2>Engineering climate solutions since 1998.</h2>
+                <p>United Klima Technologies is a Michigan-based HVAC manufacturer specializing in systems that require <strong>no outdoor condenser unit</strong>. Our engineering team brings together expertise from the United States, Europe, and Israel to solve a problem traditional HVAC manufacturers have ignored: how to provide real air conditioning when you simply cannot install an outdoor unit.</p>
+                <p>Every UKT system is designed and assembled in Michigan. Our products serve residential, commercial, government, and mobile applications across North America and internationally.</p>
+            </div>
+            <div class="about-creds">
+                <div class="cred-card">
+                    <span class="cred-label">US Patent</span>
+                    <span class="cred-value">12,403,745 B2</span>
+                </div>
+                <div class="cred-card">
+                    <span class="cred-label">CAGE Code</span>
+                    <span class="cred-value">9U4M7</span>
+                </div>
+                <div class="cred-card">
+                    <span class="cred-label">SAM.gov</span>
+                    <span class="cred-value">Registered</span>
+                </div>
+                <div class="cred-card">
+                    <span class="cred-label">Made in</span>
+                    <span class="cred-value">Michigan, USA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="contact-layout">
+            <div class="contact-text">
+                <h2>Get in touch.</h2>
+                <p>Contact us for specifications, pricing, installation guidance, or to find a certified installer in your area.</p>
+                <div class="contact-meta">
+                    <div><strong>Manufacturer</strong><span>United Klima Technologies — Michigan LLC</span></div>
+                    <div><strong>Website</strong><a href="https://www.ukt.us" target="_blank">www.ukt.us</a></div>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="return handleSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group"><label for="name">Name</label><input type="text" id="name" required placeholder="Your name"></div>
+                    <div class="form-group"><label for="email">Email</label><input type="email" id="email" required placeholder="you@example.com"></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group"><label for="type">I am a…</label><select id="type"><option>Homeowner</option><option>HVAC Contractor</option><option>Architect / Designer</option><option>Property Manager</option><option>Distributor</option><option>Other</option></select></div>
+                    <div class="form-group"><label for="product">Product</label><select id="product"><option>Attic Compact</option><option>Vertical Ductable</option><option>Vertical HVAC</option><option>Baby HVAC</option><option>Custom / Other</option></select></div>
+                </div>
+                <div class="form-group"><label for="message">Message</label><textarea id="message" rows="4" placeholder="Tell us about your project…"></textarea></div>
+                <button type="submit" class="btn btn-primary btn-full">Send inquiry</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-mark">UKT</span>
+                <p>Air conditioning without outdoor units.<br>Designed and manufactured in Michigan, USA.</p>
+            </div>
+            <div class="footer-links">
+                <div><h5>Products</h5><a href="#attic-compact">Attic Compact</a><a href="#products">Vertical Ductable</a><a href="#products">Vertical HVAC</a><a href="#products">Baby HVAC</a></div>
+                <div><h5>Resources</h5><a href="#specs">Specifications</a><a href="#how-it-works">How It Works</a><a href="#applications">Applications</a><a href="#contact">Contact</a></div>
+                <div><h5>Company</h5><a href="#about">About UKT</a><a href="https://www.ukt.us" target="_blank">Official Site</a><a href="#contact">Become a Dealer</a></div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 1998–2026 United Klima Technologies Group. All rights reserved.</p>
+            <p>US Patent 12,403,745 B2 · CAGE Code 9U4M7 · SAM.gov Registered</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

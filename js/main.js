@@ -1,116 +1,98 @@
-// === UKT Website JavaScript ===
+// === UKT Website — v2 JavaScript ===
 
-// Navbar scroll effect
+// Nav scroll effect
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 50);
+    nav.classList.toggle('scrolled', window.scrollY > 20);
 });
 
 // Mobile nav toggle
-const toggle = document.querySelector('.nav-toggle');
-const links = document.querySelector('.nav-links');
+const toggle = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
 if (toggle) {
     toggle.addEventListener('click', () => {
-        links.classList.toggle('open');
-        const spans = toggle.querySelectorAll('span');
-        if (links.classList.contains('open')) {
-            spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-            spans[1].style.opacity = '0';
-            spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-        } else {
-            spans[0].style.transform = '';
-            spans[1].style.opacity = '';
-            spans[2].style.transform = '';
-        }
+        navLinks.classList.toggle('open');
     });
 }
-
-// Close mobile nav on link click
 document.querySelectorAll('.nav-links a').forEach(a => {
-    a.addEventListener('click', () => {
-        links.classList.remove('open');
-        const spans = toggle.querySelectorAll('span');
-        spans[0].style.transform = '';
-        spans[1].style.opacity = '';
-        spans[2].style.transform = '';
-    });
+    a.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
-// Airflow tab switching
-const tabs = document.querySelectorAll('.airflow-tab');
-const returnAir = document.getElementById('return-air');
-const freshAir = document.getElementById('fresh-air');
+// Airflow mode switching
+const airflowBtns = document.querySelectorAll('.airflow-btn');
+const returnFlow = document.getElementById('return-air-flow');
+const freshFlow = document.getElementById('fresh-air-flow');
+const exhaustFlow = document.getElementById('exhaust-flow');
 
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        const mode = tab.dataset.mode;
-        
+airflowBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        airflowBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const mode = btn.dataset.mode;
+
+        // All modes always have exhaust
+        if (exhaustFlow) exhaustFlow.style.opacity = '1';
+
         switch (mode) {
             case 'recirculate':
-                if (returnAir) returnAir.style.opacity = '1';
-                if (freshAir) freshAir.style.opacity = '0.15';
+                if (returnFlow) returnFlow.style.opacity = '1';
+                if (freshFlow) freshFlow.style.opacity = '0.1';
                 break;
             case 'mixed':
-                if (returnAir) returnAir.style.opacity = '0.6';
-                if (freshAir) freshAir.style.opacity = '0.6';
+                if (returnFlow) returnFlow.style.opacity = '0.6';
+                if (freshFlow) freshFlow.style.opacity = '0.6';
                 break;
             case 'fresh':
-                if (returnAir) returnAir.style.opacity = '0.15';
-                if (freshAir) freshAir.style.opacity = '1';
+                if (returnFlow) returnFlow.style.opacity = '0.1';
+                if (freshFlow) freshFlow.style.opacity = '1';
                 break;
         }
     });
 });
 
-// Smooth reveal on scroll
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
+// Spec model tabs
+const specTabs = document.querySelectorAll('.spec-tab');
+const specPanels = document.querySelectorAll('.spec-panel');
 
-const observer = new IntersectionObserver((entries) => {
+specTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const model = tab.dataset.model;
+        specTabs.forEach(t => t.classList.remove('active'));
+        specPanels.forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        const panel = document.querySelector(`.spec-panel[data-panel="${model}"]`);
+        if (panel) panel.classList.add('active');
+    });
+});
+
+// Scroll reveal animation
+const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('visible');
         }
     });
-}, observerOptions);
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-// Apply fade-in to sections
-document.querySelectorAll('.product-card, .feature-card, .app-card, .problem-card').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    observer.observe(el);
+document.querySelectorAll(
+    '.why-card, .product-card, .feature-item, .app-card, .conn-item, .heating-card, .cred-card, .facade-layout, .install-callout, .product-feature'
+).forEach(el => {
+    el.classList.add('reveal');
+    revealObserver.observe(el);
 });
 
 // Contact form handler
 function handleSubmit(e) {
     e.preventDefault();
-    const form = e.target;
-    const btn = form.querySelector('button[type="submit"]');
-    btn.textContent = 'Message Sent ✓';
-    btn.style.background = '#10B981';
+    const btn = e.target.querySelector('button[type="submit"]');
+    btn.textContent = 'Sent ✓';
+    btn.style.background = '#10b981';
     btn.disabled = true;
     setTimeout(() => {
-        btn.textContent = 'Send Inquiry';
+        btn.textContent = 'Send inquiry';
         btn.style.background = '';
         btn.disabled = false;
-        form.reset();
+        e.target.reset();
     }, 3000);
     return false;
-}
-
-// Add parallax to hero SVG on desktop
-if (window.innerWidth > 1024) {
-    const heroVisual = document.querySelector('.hero-visual');
-    if (heroVisual) {
-        window.addEventListener('scroll', () => {
-            const scroll = window.scrollY;
-            heroVisual.style.transform = `translateY(calc(-50% + ${scroll * 0.15}px))`;
-        });
-    }
 }
